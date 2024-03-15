@@ -1,0 +1,58 @@
+<!-- Kodzilla -->
+
+<form>
+  İsim: <input type="text" /><br />
+  Soyisim: <input type="text" /><br />
+  E-Posta: <input type="email" required /><br />
+  Doğum Tarihi: <input type="date" /><br />
+  Cinsiyet: <br />
+  Kadın <input type="radio" name="Cinsiyet" /> <br />
+  Erkek <input type="radio" name="Cinsiyet" /> <br />
+  Diğer <input type="radio" name="Cinsiyet" /> <br />
+  Favori takımınız <br />
+  <input type="checkbox" />Fenerbahçe <input type="checkbox" />Galatasaray
+  <input type="checkbox" />Beşiktaş
+
+  <hr />
+  <!-- kodzilla part2 -->
+  İstanbulun hangi yakası karşıdır <br />
+  <select autofocus multiple>
+    <option value="avrupa">Avrupa</option>
+    <option value="anadolu">Anadolu</option>
+  </select><br>
+  <!-- autofocus sayfa yüklenince o kutuya odaklıyor
+  multiple ctrl ile çoklu seçenek eklemeye olanak tanıyor -->
+
+  Şifre <input type="password"><br>
+  <br /><br />
+
+  <input type="submit" value="Üye ol" />
+  <input type="reset" value="Vazgeçtim" />
+</form>
+
+<hr />
+
+<!-- action- gönder butonuna bastığında nereye gidecek örnek olarakk semantic.html koydum -->
+<form action="semantic.html">
+  <input type="text" placeholder="Kullanıcı Adı" />
+  <input type="password" placeholder="Şifre" />
+  <input type="email" placeholder="Email" /><br />
+  Kitap okumak <input type="checkbox" id="kitap-checkbox" /> <br />
+  Spor yapmak <input type="checkbox" id="spor-checkbox" /> <br />
+  Kadın <input type="radio" name="cinsiyet" checked="true" /><br />
+  Erkek <input type="radio" name="cinsiyet" /><br />
+  <input type="file" /> <br />
+  İçecekler:
+  <select>
+    <option value="tea">Çay</option>
+    <option value="coffee">Kahve</option>
+    <option value="cola">Kola</option>
+  </select>
+  <br />
+  <textarea name="mesaj-input" id="mesaj-alani" cols="30" rows="10"></textarea>
+  <br />
+
+  <br /><br />
+  <input type="submit" />
+  <input type="reset" />
+</form>
