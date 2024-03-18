@@ -1,0 +1,23 @@
+ 
+        h2 {
+            /* Internal CSS */
+            color: aqua; 
+            font-size: 50px;
+            text-transform: uppercase;
+            background-color: blue;
+        }
+        p {
+            color:purple;
+            font-size: 35px;
+        } 
+       
+         body { 
+            background-color: bisque;
+            color:brown;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+        }
+       
+          ul{
+            color: blueviolet;
+        }

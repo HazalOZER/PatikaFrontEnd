@@ -1,0 +1,27 @@
+/* class için .isim{}
+id için #id-bilgisi{} */
+
+h1,h2,h3,h4,h5,h6{
+        color: rgb(181, 95, 181);
+}
+h1{
+    font-size: 30px;
+
+}
+p{font-size: 20px;}
+  
+#first-article {
+    color :blue
+}
+.text-red {
+    color: red;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
