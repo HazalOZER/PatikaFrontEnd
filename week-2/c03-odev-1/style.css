@@ -15,12 +15,10 @@ article{
     color: rgb(34, 40, 49);
 }
 body{
-    background-color: rgb(234, 223, 180)
-    ;
+    background-color: rgb(234, 223, 180);
 }
 #welcome{
     color:rgb(182, 116, 72);
-    text-align: center;
     font-size: 50px;
 }
 img{

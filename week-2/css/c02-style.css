@@ -25,3 +25,41 @@ p{font-size: 20px;}
 .fs-30 {
     font-size: 30px;
 }
+
+.color-pink.fw-normal{
+    color: pink;
+    font-weight: normal;
+    /* ikisini de kullanmak zorundasın */
+}
+
+.color-violet .fw-bold{
+    color: violet;
+    font-weight: bold;
+}
+li:nth-child(odd){
+    color: slateblue;
+}
+li:nth-child(even){
+    background-color: bisque;
+}
+li:first-child{
+    color: green;
+}
+li:last-child{
+    color:brown;
+}
+li:nth-child(3){
+
+    color:coral;
+}
+li:nth-child(3n+1){
+    font-style:italic;
+}
+a.open:link{
+    /* Daha önce Açılmamış link farklı bu renkte gözüküyr */
+    color: brown;
+}
+a.test:hover{
+    /* Üzerine gelince renk değiştiriyor */
+    color:teal
+}

@@ -1,0 +1,67 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10PX; */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.bg-red{
+      background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+/* h1{
+    float: left;
+} */
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 1000px;
+    margin: 50px auto 0;
+    /* margin: auto 0 auto auto; yukarı sağ aşağı sol
+    margin:  auto auto ; */ 
+}
+.left-bar{
+    width: 200px;
+    float: left;
+}
+
+.contect{
+    width: 800px;
+    float: left;
+    height: auto;
+}
+.card{
+    width: 10%;
+    float: left;
+    margin-left :2%;
+    background-color: rgb(173, 173, 207);
+    padding: 5%;
+    border-radius: 10px;
+}
+.gradient{
+    background: linear-gradient(90deg,rgba(45, 156, 219,.6), rgba(155, 81, 244,.6));
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color:white;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 25px 3px rgba(0,0,0,0.82);
+}
